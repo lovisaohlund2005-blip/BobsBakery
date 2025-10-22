@@ -5,7 +5,7 @@ public class PaymentSlip {
     private double hourlyRate;
     private double hoursWorked;
 
-    // skapar en kobstruktor som kräver tre parametrar för att skapa ett PaymentSlip
+    // skapar en konstruktor som kräver tre parametrar för att skapa ett PaymentSlip
     // objekt
     public PaymentSlip(String name, Double hourlyRate, Double hoursWorked) {
         this.name = name;

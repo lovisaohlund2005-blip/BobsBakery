@@ -12,18 +12,17 @@ public class App {
         // skriver ut text i konsolen
         System.out.println("What is the employee´s name?");
 
-        // läser vad användaren skriver in och sparar det i firstName attributet i
-        // PaymentSlip objektet
+        // läser vad användaren skriver in och sparar det i variabeln name
         String name = input.nextLine();
 
         // ber användaren mata in hourlyRate
         System.out.println("What is their hourly rate?");
-        // läser in hourlyRate och sparar det i PaymentSlip objektet
+        // läser in hourlyRate och sparar det i variabeln hourlyRate
         Double hourlyRate = input.nextDouble();
 
         // ber användaren mata in hoursWorked
         System.out.println("How many hours did they work this month?");
-        // läser in hoursWorked och sparar det i PaymentSlip objektet
+        // läser in hoursWorked och sparar det i variabeln hoursWorked
         Double hoursWorked = input.nextDouble();
 
         // skapar en variabel av typen PaymentSlip med namnet ps, och tilldelar den ett
