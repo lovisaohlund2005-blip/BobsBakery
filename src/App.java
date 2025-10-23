@@ -17,13 +17,14 @@ public class App {
 
         // ber användaren mata in hourlyRate
         System.out.println("What is their hourly rate?");
-        // läser in hourlyRate och sparar det i variabeln hourlyRate
-        Double hourlyRate = input.nextDouble();
+       
+
+        int hourlyRate = input.nextInt();
 
         // ber användaren mata in hoursWorked
         System.out.println("How many hours did they work this month?");
-        // läser in hoursWorked och sparar det i variabeln hoursWorked
-        Double hoursWorked = input.nextDouble();
+      
+        int hoursWorked = input.nextInt();
 
         // skapar en variabel av typen PaymentSlip med namnet ps, och tilldelar den ett
         // nytt paymentslip-objekt
